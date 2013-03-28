@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B5DE90F170414DD00B42C4C /* bar_top_common.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B5DE90E170414DD00B42C4C /* bar_top_common.png */; };
+		9B5DE9121704151800B42C4C /* 0_loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B5DE9111704151800B42C4C /* 0_loading.jpg */; };
+		E0327A711602C218005358DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0327A701602C218005358DB /* UIKit.framework */; };
+		E0327A731602C218005358DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0327A721602C218005358DB /* Foundation.framework */; };
+		E0327A751602C218005358DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0327A741602C218005358DB /* CoreGraphics.framework */; };
+		E0327A7B1602C218005358DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0327A791602C218005358DB /* InfoPlist.strings */; };
+		E0327A7D1602C218005358DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0327A7C1602C218005358DB /* main.m */; };
+		E0327A811602C218005358DB /* XLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0327A801602C218005358DB /* XLAppDelegate.m */; };
+		E0327A841602C218005358DB /* XLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0327A831602C218005358DB /* XLViewController.m */; };
+		E0327A871602C218005358DB /* XLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0327A851602C218005358DB /* XLViewController.xib */; };
+		E0327A901602C25E005358DB /* XLCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0327A8F1602C25E005358DB /* XLCycleScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B5DE90E170414DD00B42C4C /* bar_top_common.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_top_common.png; sourceTree = "<group>"; };
+		9B5DE9111704151800B42C4C /* 0_loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0_loading.jpg; sourceTree = "<group>"; };
+		E0327A6C1602C218005358DB /* CycleScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CycleScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0327A701602C218005358DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0327A721602C218005358DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0327A741602C218005358DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0327A781602C218005358DB /* CycleScrollViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CycleScrollViewDemo-Info.plist"; sourceTree = "<group>"; };
+		E0327A7A1602C218005358DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0327A7C1602C218005358DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0327A7E1602C218005358DB /* CycleScrollViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CycleScrollViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E0327A7F1602C218005358DB /* XLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAppDelegate.h; sourceTree = "<group>"; };
+		E0327A801602C218005358DB /* XLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAppDelegate.m; sourceTree = "<group>"; };
+		E0327A821602C218005358DB /* XLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLViewController.h; sourceTree = "<group>"; };
+		E0327A831602C218005358DB /* XLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLViewController.m; sourceTree = "<group>"; };
+		E0327A861602C218005358DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XLViewController.xib; sourceTree = "<group>"; };
+		E0327A8E1602C25E005358DB /* XLCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCycleScrollView.h; sourceTree = "<group>"; };
+		E0327A8F1602C25E005358DB /* XLCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCycleScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0327A691602C218005358DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0327A711602C218005358DB /* UIKit.framework in Frameworks */,
+				E0327A731602C218005358DB /* Foundation.framework in Frameworks */,
+				E0327A751602C218005358DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0327A611602C218005358DB = {
+			isa = PBXGroup;
+			children = (
+				E0327A761602C218005358DB /* CycleScrollViewDemo */,
+				E0327A6F1602C218005358DB /* Frameworks */,
+				E0327A6D1602C218005358DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0327A6D1602C218005358DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0327A6C1602C218005358DB /* CycleScrollViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0327A6F1602C218005358DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0327A701602C218005358DB /* UIKit.framework */,
+				E0327A721602C218005358DB /* Foundation.framework */,
+				E0327A741602C218005358DB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0327A761602C218005358DB /* CycleScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E0327A8D1602C224005358DB /* CycleScrollView */,
+				E0327A7F1602C218005358DB /* XLAppDelegate.h */,
+				E0327A801602C218005358DB /* XLAppDelegate.m */,
+				E0327A821602C218005358DB /* XLViewController.h */,
+				E0327A831602C218005358DB /* XLViewController.m */,
+				E0327A851602C218005358DB /* XLViewController.xib */,
+				9B5DE90E170414DD00B42C4C /* bar_top_common.png */,
+				9B5DE9111704151800B42C4C /* 0_loading.jpg */,
+				E0327A771602C218005358DB /* Supporting Files */,
+			);
+			path = CycleScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		E0327A771602C218005358DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0327A781602C218005358DB /* CycleScrollViewDemo-Info.plist */,
+				E0327A791602C218005358DB /* InfoPlist.strings */,
+				E0327A7C1602C218005358DB /* main.m */,
+				E0327A7E1602C218005358DB /* CycleScrollViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0327A8D1602C224005358DB /* CycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				E0327A8E1602C25E005358DB /* XLCycleScrollView.h */,
+				E0327A8F1602C25E005358DB /* XLCycleScrollView.m */,
+			);
+			name = CycleScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0327A6B1602C218005358DB /* CycleScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0327A8A1602C218005358DB /* Build configuration list for PBXNativeTarget "CycleScrollViewDemo" */;
+			buildPhases = (
+				E0327A681602C218005358DB /* Sources */,
+				E0327A691602C218005358DB /* Frameworks */,
+				E0327A6A1602C218005358DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CycleScrollViewDemo;
+			productName = CycleScrollViewDemo;
+			productReference = E0327A6C1602C218005358DB /* CycleScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0327A631602C218005358DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XL;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "xie liang";
+			};
+			buildConfigurationList = E0327A661602C218005358DB /* Build configuration list for PBXProject "CycleScrollViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0327A611602C218005358DB;
+			productRefGroup = E0327A6D1602C218005358DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0327A6B1602C218005358DB /* CycleScrollViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0327A6A1602C218005358DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0327A7B1602C218005358DB /* InfoPlist.strings in Resources */,
+				E0327A871602C218005358DB /* XLViewController.xib in Resources */,
+				9B5DE90F170414DD00B42C4C /* bar_top_common.png in Resources */,
+				9B5DE9121704151800B42C4C /* 0_loading.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0327A681602C218005358DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0327A7D1602C218005358DB /* main.m in Sources */,
+				E0327A811602C218005358DB /* XLAppDelegate.m in Sources */,
+				E0327A841602C218005358DB /* XLViewController.m in Sources */,
+				E0327A901602C25E005358DB /* XLCycleScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0327A791602C218005358DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0327A7A1602C218005358DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0327A851602C218005358DB /* XLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0327A861602C218005358DB /* en */,
+			);
+			name = XLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0327A881602C218005358DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0327A891602C218005358DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0327A8B1602C218005358DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CycleScrollViewDemo/CycleScrollViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "CycleScrollViewDemo/CycleScrollViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0327A8C1602C218005358DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CycleScrollViewDemo/CycleScrollViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "CycleScrollViewDemo/CycleScrollViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0327A661602C218005358DB /* Build configuration list for PBXProject "CycleScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0327A881602C218005358DB /* Debug */,
+				E0327A891602C218005358DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0327A8A1602C218005358DB /* Build configuration list for PBXNativeTarget "CycleScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0327A8B1602C218005358DB /* Debug */,
+				E0327A8C1602C218005358DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0327A631602C218005358DB /* Project object */;
+}
